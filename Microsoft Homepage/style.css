@@ -1,0 +1,432 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1 rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  background-color: white;
+}
+
+header .container {
+  padding: 0 5%;
+  align-items: center;
+}
+
+header .container > div {
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+}
+
+header a {
+  color: #262626;
+  padding: 16px 8px 10px;
+  margin: 1px 4px;
+  height: 48px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.logo {
+  padding: 16px 6px 16px 10px;
+  height: auto;
+  margin: 0;
+}
+
+.logo img {
+  margin: -2px 15px 0px 0px;
+  width: 108px;
+  max-width: none;
+}
+
+header ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+.hero-bg {
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-01-LaptopStudio-Platinum-BnrCntrl:VP5-1920x600");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 31.25vw;
+  max-width: 100%;
+  padding: 0px 5px;
+}
+
+.hero-bg > div {
+  display: flex;
+  align-items: center;
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 48px;
+  width: 30%;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 2.3125rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.8125rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1400px) {
+  h1,
+  h2 {
+    font-size: 1.8125rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+}
+
+.blue-button {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #0067b8;
+  color: white;
+  font-weight: 600;
+  border: 0.125rem solid transparent;
+  border-radius: 0.125rem;
+  padding: 0.625rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-controls img {
+  padding-right: 20px;
+}
+
+.pause {
+  width: 23px;
+}
+
+.arrow {
+  width: 20px;
+}
+
+.dot {
+  width: 12px;
+}
+
+.dot1 {
+  padding-right: 30px !important;
+}
+
+.carousel-controls button {
+  border: none;
+  background-color: transparent;
+}
+
+.carousel-controls ol {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.hero-section {
+  margin-bottom: 48px;
+}
+
+.center-content {
+  padding-left: 95px;
+  padding-right: 95px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.icon-menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 64px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.icon-menu li {
+  margin: 16px 24px;
+}
+
+.icon-menu img {
+  display: block;
+  margin: auto;
+  margin-bottom: 8px;
+}
+
+.icon-menu a {
+  color: #0067b8;
+  font-weight: 600;
+}
+
+.image-section .wrapper {
+  justify-content: center;
+}
+
+.image-section {
+  margin-bottom: 48px;
+}
+
+.block {
+  padding: 0px 13px;
+  max-width: 406px;
+}
+
+.block h3 {
+  margin-top: 0;
+  padding-top: 16px;
+}
+
+.block a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0067b8;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1780px) {
+  .hero {
+    padding-left: 95px;
+  }
+
+  .block {
+    width: 25%;
+  }
+
+  .block img {
+    width: 100%;
+  }
+
+  .center-content {
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .first-block {
+    padding-left: 0px;
+  }
+
+  .last-block {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1084px) {
+  .wrapper {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+
+  .image-section > div {
+    padding: 0px;
+  }
+
+  .image-section h2 {
+    padding-left: 0.75rem;
+  }
+
+  .block {
+    min-width: 47.5%;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+    margin-bottom: 3rem;
+  }
+
+  .first-block {
+    padding-left: 1.25%;
+  }
+
+  .last-block {
+    padding-right: 1.25%;
+  }
+
+  footer nav {
+    flex-wrap: wrap;
+  }
+
+  .footer-nav-group {
+    min-width: 30%;
+  }
+}
+
+.card-section {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.card-background {
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Series-S-1TB-Black-002:VP5-1596x600");
+  height: 600px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-background h2 {
+  margin-top: 0;
+}
+
+.text-container {
+  padding: 0px 80px;
+  margin: 48px 0px;
+  display: flex;
+}
+
+.text-container div {
+  padding: 48px;
+  width: 504px;
+}
+
+.text-container p {
+  margin: 0 0 24px;
+}
+
+.social-links ul {
+  list-style: none;
+  display: flex;
+  padding: 0px 12px;
+  height: 32px;
+  margin: 0;
+}
+
+.social-links .center-content {
+  display: flex;
+  align-items: center;
+}
+
+.social-links .center-content div {
+  margin-right: 12px;
+}
+
+.social-links img {
+  width: 32px;
+  margin: auto;
+}
+
+.social-links li {
+  margin-right: 12px;
+}
+
+.back-to-top {
+  padding: 12px;
+  display: flex;
+  justify-content: end;
+}
+
+.back-to-top button {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 600;
+  border: 0.125rem solid transparent;
+  border-radius: 0.125rem;
+  padding: 0.625rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+}
+
+footer {
+  margin-top: 48px;
+  background-color: #f2f2f2;
+}
+
+footer h4 {
+  margin: 0px;
+  padding: 36px 0px 4px;
+  color: #616161;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  padding: 8px 0px;
+  color: #616161;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.footer-nav-group {
+  width: 16.6667%;
+  padding: 0px 12px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-base {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+footer span {
+  font-size: 11px;
+  padding-right: 24px;
+}
+
+.footer-base ul {
+  display: flex;
+}
+
+.footer-base li {
+  padding: 0px 24px 4px 0px;
+}
+
+.footer-base svg {
+  padding-right: 8px;
+}
+
+.footer-base div {
+  display: flex;
+}
